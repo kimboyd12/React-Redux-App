@@ -1,21 +1,23 @@
 import React, { useEffect } from "react";
 import { getQuote } from "../actions/index";
 import { connect } from "react-redux";
+import '../App.css';
+
 
 const Quote = props => {
     useEffect(() => {
         getQuote();
     });
 
-    if (props.isFetching) {
-        return <h2>Loading Kayneisms....</h2>
-    }
+    // if (props.isFetching) {
+    //     return <h2>Loading Kayneisms....</h2>
+    // }
 
     return (
-        <>
-        <h2>"{props.quote}"</h2>
-        <button onClick={() => props.getQuote()}>Give me more!</button>
-        </>
+        <div className="quote-btn">
+        <h2>{props.quote}</h2>
+        <button onClick={() => props.getQuote()}>press for wisdom</button>
+        </div>
     );
 };
 

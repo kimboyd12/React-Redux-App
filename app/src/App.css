@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +37,42 @@
     transform: rotate(360deg);
   }
 }
+
+
+.App img {
+  margin-top: -10px;
+  width: 470px;
+}
+
+.App h1 {
+  font-size: 4rem;
+}
+
+.App h2 {
+  font-size: 2.5rem;
+  margin-top: -60px;
+}
+
+.App h4 {
+  font-size: 2.5rem;
+  margin-bottom: -60px;
+  margin-top: 15px;
+}
+
+
+.quote-btn h2 {
+  font-size: 2rem;
+  margin-top: 100px;
+  font-family: 'Roboto';
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-family: 'Bebas Neue';
+  font-size: 1.6rem;
+  margin-top: 40px;
+  padding: 7px;
+}
+
