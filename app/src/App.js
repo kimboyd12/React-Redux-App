@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+import Quote from './components/Quote';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Random Kanye Quote Generator
-      </h1>
+      <h1>Random Kanye Quote Generator</h1>
+      <Quote />
     </div>
   );
 }
